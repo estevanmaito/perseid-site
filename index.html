@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perseid Systems</title>
+    <meta name="description" content="Perseid develops drone interceptors for military and civil applications.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: Inter, sans-serif;
+        }
+
+        video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+
+        }
+
+        header {
+            position: relative;
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        header h1 {
+            color: white;
+            text-shadow: 2px 2px #000;
+            font-size: 2.5rem;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 800;
+        }
+
+        header p {
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <video playsinline autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <h1>Perseid Systems</h1>
+        <p>advanced drone defense solutions</p>
+    </header>
+</body>
+
+</html>
